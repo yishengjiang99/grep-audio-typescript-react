@@ -47,6 +47,7 @@ require("@xarc/fastify-server")({
           handler: async (request,reply) => {
             const ReactDOMServer = require('react-dom/server');
             console.log(request.query['start']);
+            //this is a public psql login
             const sql="select * from rnc_genome_mapping limit 10 offset "+parseInt(request.query['start'] || 0);
             exec(`psql postgres://reader:NWDMCE5xdipIjRrp@hh-pgsql-public.ebi.ac.uk:5432/pfmegrnargs -c '${sql}' --html`, (err,stdout) => {
               if(err) reply.code(500);
