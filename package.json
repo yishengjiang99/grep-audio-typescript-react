@@ -7,8 +7,23 @@
     "start": "webpack-dev-server -d --content-base ./public"
   },
   "dependencies": {
+    "@polymer/lit-element": "^0.7.1",
+    "@xarc/app": "^8.1.0",
+    "@xarc/fastify-server": "^1.1.0",
+    "bootstrap": "^4.5.0",
+    "electrode-ignite": "^3.0.17",
+    "lit-element": "^2.3.1",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "subapp-server": "^1.2.0",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "xclap": "^0.2.51"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
   }
 }
