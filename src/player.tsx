@@ -28,8 +28,8 @@ interface PlayerState {
 
 const audioContext = new AudioContext();
 
-export class Player extends React.Component<PlayerProps, PlayerState>{
-
+export class Player extends React.Component<PlayerProps,null>{
+  
   constructor(props){
     super(props);
     this.state={
