@@ -1,3 +1,3 @@
-import Spotify from './spotify.tsx';  //from "./components/app.tsx";
+import App from "./components/app.tsx"; //from "./components/app.tsx";
 
-export default Spotify;
+export default App;
